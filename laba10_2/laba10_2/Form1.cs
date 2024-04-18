@@ -9,25 +9,30 @@ namespace laba10_2
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Функция cos положительна в I четверти", "Ответ");
+            label2.Text = "Функция cos положительна в I четверти";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Функция cos отрицательна в II четверти", "Ответ");
+            label2.Text = "Функция cos отрицательна в II четверти";
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Функция cos отрицательна в III четверти", "Ответ");
+            label2.Text = "Функция cos отрицательна в III четверти";
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Функция cos положительна в IV четверти", "Ответ");
+            label2.Text = "Функция cos положительна в IV четверти";
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

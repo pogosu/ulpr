@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\laba9\\laba9\\laba9.csproj": {}
+    "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba9\\laba9\\laba9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\laba9\\laba9\\laba9.csproj": {
+    "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba9\\laba9\\laba9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\laba9\\laba9\\laba9.csproj",
+        "projectUniqueName": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba9\\laba9\\laba9.csproj",
         "projectName": "laba9",
-        "projectPath": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\laba9\\laba9\\laba9.csproj",
+        "projectPath": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba9\\laba9\\laba9.csproj",
         "packagesPath": "C:\\Users\\Ilya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\laba9\\laba9\\obj\\",
+        "outputPath": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba9\\laba9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilya\\AppData\\Roaming\\NuGet\\NuGet.Config",

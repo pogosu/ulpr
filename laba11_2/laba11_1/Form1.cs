@@ -117,7 +117,7 @@ namespace laba11_1
                     }
                 }
 
-                if (listBox1.Items.Count == 0)
+                if (listBox2.Items.Count == 0)
                 {
                     MessageBox.Show("Нет поездов, отправляющихся после указанного времени.");
                 }

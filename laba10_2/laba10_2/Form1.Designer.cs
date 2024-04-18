@@ -34,6 +34,7 @@
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             label1 = new Label();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -45,7 +46,7 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(19, 153);
+            pictureBox1.Location = new Point(20, 104);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(230, 208);
             pictureBox1.TabIndex = 0;
@@ -56,7 +57,7 @@
             // 
             pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(246, 153);
+            pictureBox2.Location = new Point(247, 104);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(230, 207);
             pictureBox2.TabIndex = 1;
@@ -67,7 +68,7 @@
             // 
             pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(19, 358);
+            pictureBox3.Location = new Point(20, 309);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(230, 207);
             pictureBox3.TabIndex = 2;
@@ -78,7 +79,7 @@
             // 
             pictureBox4.Cursor = Cursors.Hand;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(246, 358);
+            pictureBox4.Location = new Point(247, 309);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(230, 207);
             pictureBox4.TabIndex = 3;
@@ -97,12 +98,22 @@
             label1.TextAlign = ContentAlignment.TopCenter;
             label1.Click += label1_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label2.Location = new Point(79, 546);
+            label2.Name = "label2";
+            label2.Size = new Size(0, 25);
+            label2.TabIndex = 5;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(498, 617);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox4);
             Controls.Add(pictureBox3);
@@ -111,6 +122,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "COS";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -126,5 +138,6 @@
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private Label label1;
+        private Label label2;
     }
 }

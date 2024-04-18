@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\8laba\\8laba\\8laba.csproj": {}
+    "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba8_2\\8laba\\8laba.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\8laba\\8laba\\8laba.csproj": {
+    "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba8_2\\8laba\\8laba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\8laba\\8laba\\8laba.csproj",
+        "projectUniqueName": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba8_2\\8laba\\8laba.csproj",
         "projectName": "8laba",
-        "projectPath": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\8laba\\8laba\\8laba.csproj",
+        "projectPath": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba8_2\\8laba\\8laba.csproj",
         "packagesPath": "C:\\Users\\Ilya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\8laba\\8laba\\obj\\",
+        "outputPath": "C:\\Users\\Ilya\\Desktop\\labi\\УЛП\\ulp_laboratornya\\laba8_2\\8laba\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilya\\AppData\\Roaming\\NuGet\\NuGet.Config",

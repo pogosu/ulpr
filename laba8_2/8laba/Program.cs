@@ -28,7 +28,7 @@ interface IPayment
 }
 
 abstract class Employee : IPayment
-{
+{   
     protected string fio;
     protected double oklad;
     protected int startYear;

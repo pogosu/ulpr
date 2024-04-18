@@ -10,15 +10,22 @@ namespace laba10
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double length = double.Parse(textBox1.Text);
-            double width = double.Parse(textBox2.Text);
-            double height = double.Parse(textBox3.Text);
+            try
+            {
+                double length = double.Parse(textBox1.Text);
+                double width = double.Parse(textBox2.Text);
+                double height = double.Parse(textBox3.Text);
 
-            double room = length * width * height;
+                double room = length * width * height;
 
-            double oxygen = room * 0.21;
+                double oxygen = room * 0.21;
 
-            MessageBox.Show($"Объем кислорода в комнате: {oxygen} кубических метров", "Результат");
+                label6.Text = $"Ответ: Объем кислорода: {oxygen} кубических метров";
+            }
+            catch (FormatException)
+            {
+                label6.Text = "Неверный формат ввода числа.";
+            }
         }
 
         private void button1_KeyDown(object sender, KeyEventArgs e)

@@ -33,12 +33,14 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             SuspendLayout();
             // 
             // trackBar1
             // 
-            trackBar1.Location = new Point(12, 348);
+            trackBar1.Location = new Point(12, 369);
             trackBar1.Name = "trackBar1";
             trackBar1.Size = new Size(360, 45);
             trackBar1.TabIndex = 0;
@@ -50,7 +52,7 @@
             label1.BackColor = Color.DimGray;
             label1.BorderStyle = BorderStyle.FixedSingle;
             label1.Font = new Font("Rubik", 15.7499981F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label1.Location = new Point(12, 88);
+            label1.Location = new Point(12, 103);
             label1.Name = "label1";
             label1.Size = new Size(44, 27);
             label1.TabIndex = 1;
@@ -67,6 +69,7 @@
             label2.Size = new Size(224, 27);
             label2.TabIndex = 2;
             label2.Text = "Сумма по формуле:";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -79,6 +82,7 @@
             label3.Size = new Size(182, 27);
             label3.TabIndex = 3;
             label3.Text = "Сумма в цикле: ";
+            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -91,19 +95,46 @@
             label4.Text = "1^2 + 3^2 + 5^2 + ⋯ + (2𝑛 − 1)^2 = 𝑛(4𝑛^2 − 1)/3";
             label4.Click += label4_Click;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Font = new Font("Arial", 14.25F, FontStyle.Bold);
+            checkBox1.Location = new Point(33, 322);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(148, 26);
+            checkBox1.TabIndex = 5;
+            checkBox1.Text = "По формуле";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkBox2.Location = new Point(239, 322);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(105, 26);
+            checkBox2.TabIndex = 6;
+            checkBox2.Text = "В цикле";
+            checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Yellow;
             ClientSize = new Size(384, 450);
+            Controls.Add(checkBox2);
+            Controls.Add(checkBox1);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(trackBar1);
             Name = "Form1";
-            Text = "ччччччч";
+            Text = "Sum";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -116,5 +147,7 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
     }
 }

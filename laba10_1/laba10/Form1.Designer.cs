@@ -39,6 +39,7 @@
             label4 = new Label();
             label5 = new Label();
             pictureBox1 = new PictureBox();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -59,9 +60,9 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Comic Sans MS", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            button1.Location = new Point(89, 396);
+            button1.Location = new Point(71, 365);
             button1.Name = "button1";
-            button1.Size = new Size(232, 72);
+            button1.Size = new Size(299, 57);
             button1.TabIndex = 1;
             button1.Text = "Рассчитать";
             button1.UseVisualStyleBackColor = false;
@@ -151,12 +152,22 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(327, 396);
+            pictureBox1.Location = new Point(338, 220);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(88, 72);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Rubik", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label6.Location = new Point(12, 456);
+            label6.Name = "label6";
+            label6.Size = new Size(66, 19);
+            label6.TabIndex = 10;
+            label6.Text = "Ответ: ";
             // 
             // Form1
             // 
@@ -166,6 +177,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(438, 525);
+            Controls.Add(label6);
             Controls.Add(pictureBox1);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -199,5 +211,6 @@
         private Label label4;
         private Label label5;
         private PictureBox pictureBox1;
+        private Label label6;
     }
 }
